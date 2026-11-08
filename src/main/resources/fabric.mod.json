@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rynek_analiza",
+  "version": "0.1.0",
+  "name": "Rynek Analiza (dodatek do BK-Rynek)",
+  "description": "Analiza rynku /ah search + sortowanie po najniższej cenie. Wylicza cenę skupu (średnia 3 najtańszych * 0.97 - marża) i wpisuje ją do BK-Rynek.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.rynekanaliza.RynekAnalizaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "bkrynek": "*"
+  }
+}
